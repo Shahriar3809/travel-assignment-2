@@ -92,7 +92,9 @@ nav {
     color: #FF5400;
 }
 
-
+.bar {
+    display: none;
+}
 
 
 /* Banner Section */
