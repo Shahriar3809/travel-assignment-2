@@ -156,6 +156,29 @@
     }
 
 
+    .newsletter-section {
+        flex-direction: column;
+    }
+
+    .input-area, .img-area {
+        width: 90%;
+        margin: auto;
+    }
+
+    .off-save {
+        padding: 10px 20px;
+        bottom: 35px;
+        right: 1px;
+    }
+    .off-save p {
+        font-size: 1rem;
+    }
+    .off-save h4 {
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+
+
 
 
 
