@@ -15,7 +15,8 @@ hr {
     
 }
 main {
-    max-width: 1170px;
+    max-width: 992px;
+    /* max-width: 1170px; */
     margin: auto;
 }
 
@@ -39,7 +40,8 @@ main {
 
 /* Header Style */
 header {
-    max-width: 1170px;
+    max-width: 992px;
+    /* max-width: 1170px; */
     margin: auto;
     
 }
@@ -193,7 +195,7 @@ form {
 .popular-tour-content p {
     margin: 24px 50px 24px 0;
     color: rgba(19, 19, 24, 0.70);
-    line-height: 26px;
+    line-height: 15px;
     text-align: justify;
 }
 .popular-tour-content ul {
