@@ -10,7 +10,10 @@
     font-family: 'Mulish', sans-serif;
     font-size: 16px;
 }
-
+hr {
+    border-color: rgba(19, 19, 24, 0.10);;
+    
+}
 main {
     max-width: 1170px;
     margin: auto;
@@ -102,7 +105,7 @@ nav {
 .banner {
     max-width: 1170px;
     height: 500px;
-    margin: 50px auto;
+    margin: 20px auto;
     background-image: url('../Images/Group13.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,7 +133,8 @@ nav {
     text-align: center;
 }
 .banner-description {
-    margin: 24px 0;
+    max-width: 80%;
+    margin: 24px auto;
     color: #FFF;
     text-align: center;
     line-height: 26px;
@@ -190,6 +194,7 @@ form {
     margin: 24px 50px 24px 0;
     color: rgba(19, 19, 24, 0.70);
     line-height: 26px;
+    text-align: justify;
 }
 .popular-tour-content ul {
     margin-left: 30px;
@@ -198,6 +203,7 @@ form {
     color: rgba(19, 19, 24, 0.70);
     line-height: 26px;
     margin-bottom: 10px;
+    text-align: justify;
 }
 .popular-tour-img {
     width: 55%;
@@ -455,6 +461,7 @@ form {
 .review-item p {
     color: #5A5A5D;
     line-height: 26px;
+    text-align: justify;
 }
 
 
@@ -487,6 +494,11 @@ form {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     line-height: 26px;
+}
+
+.see-all-btn {
+    width: 200px;
+    margin: 40px auto;
 }
 
 .place {
