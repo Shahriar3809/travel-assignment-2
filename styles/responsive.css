@@ -231,7 +231,9 @@
         width: 32%;
     }
     
-
+    .fa-magnifying-glass {
+        margin-right: 5px;
+    }
 
 
 }
