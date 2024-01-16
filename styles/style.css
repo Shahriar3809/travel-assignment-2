@@ -15,8 +15,8 @@ hr {
     
 }
 main {
-    max-width: 992px;
-    /* max-width: 1170px; */
+    /* max-width: 992px; */
+    max-width: 1170px;
     margin: auto;
 }
 
@@ -40,8 +40,8 @@ main {
 
 /* Header Style */
 header {
-    max-width: 992px;
-    /* max-width: 1170px; */
+    /* max-width: 992px; */
+    max-width: 1170px;
     margin: auto;
     
 }
@@ -83,6 +83,11 @@ nav {
     margin: 20px;
     
 }
+
+.link-container ul li:hover a {
+    color: #FF5400;
+}
+
 
 .link-container ul li a {
     text-decoration: none;
