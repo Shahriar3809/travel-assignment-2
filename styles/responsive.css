@@ -199,24 +199,39 @@
     .footer-content {
         width: 90%;
     }
+   
+}
 
 
 
 
 
 
+@media screen and (min-width: 600px) and (max-width: 992px) {
+    header, main, .footer-content {
+        max-width: 700px;
+        margin: auto;
+    }
+    .find-section {
+        width: 80%;
+        margin: auto;
+    }
+    .popular-tour-section {
+        flex-direction: column;
+    }
+    .popular-tour-content {
+        width: 100%;
+       
+    }
+    .popular-tour-img {
+        width: 100%;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    .review-item {
+        width: 32%;
+    }
     
+
+
+
 }
