@@ -112,6 +112,8 @@
         top: 30%;
         left: 15%;
     }
+    
+
 
     .place-content h6 {
         font-size: 1rem;
@@ -181,30 +183,18 @@
     .review-container {
         flex-direction: column;
     }
+
+    .review-title,
+    .tour-title,
+    .deals-and-discount h2,
+    .choose-us-title,
+    .destination-title {
+        font-size: 1.8rem;
+    }
     .review-item {
         width: 90%;
         margin: auto;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .footer-content {
         width: 90%;
