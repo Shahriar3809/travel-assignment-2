@@ -66,10 +66,12 @@
     }
 
     /* -------------------- */
-    .popular-tour-img iframe {
-        max-width: 310px;
-        height: 200px;
+   
+    .popular-tour-img video {
+        height: 220px; 
+        
     }
+   
     /* --------------------- */
 
 

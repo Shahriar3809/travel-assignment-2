@@ -169,14 +169,15 @@ form {
 .popular-tour-section {
     margin: 100px 0;
     display: flex;
-    gap: 25px;
+    gap: 15px;
     justify-content: space-between;
     align-items: center;
    
 }
 
 .popular-tour-content {
-    width: 48%;
+    width: 40%;
+   
 }
 
 .tour-title {
@@ -199,7 +200,7 @@ form {
     margin-bottom: 10px;
 }
 .popular-tour-img {
-    width: 48%;
+    width: 55%;
 }
 
 .popular-tour-img img {
@@ -207,15 +208,20 @@ form {
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
+    
 }
 
+.popular-tour-img video {
+    width:100%; 
+    height: 500px; 
+    object-fit: cover; 
+    /* padding: 10px 0; */
+    border-radius: 10px;
+}
 
 /* ----------------------------------------- */
 
-.popular-tour-img iframe {
-    max-width: 565px;
-    height: 440px;
-}
+
 /* ------------------------------------------- */
 
 
