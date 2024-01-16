@@ -57,14 +57,20 @@
         margin: auto;
     }
     .tour-title {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+        text-align: center;
     }
     .popular-tour-content .btn-primary {
         width: 174px;
         height: 52px;
     }
 
-
+    /* -------------------- */
+    .popular-tour-img iframe {
+        max-width: 330px;
+        height: 200px;
+    }
+    /* --------------------- */
 
 
 
@@ -94,7 +100,7 @@
     .deals-and-discount {
         width: 90%;
         height: 100%;
-        margin: auto;
+        margin: 20px auto;
     }
 
     .place {
@@ -197,6 +203,34 @@
         font-size: 1.2rem;
         font-weight: 800;
     }
+
+
+    .review-container {
+        flex-direction: column;
+    }
+    .review-item {
+        width: 90%;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     .footer-content {
