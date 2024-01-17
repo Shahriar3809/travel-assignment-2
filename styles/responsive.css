@@ -46,7 +46,7 @@
 
     .popular-tour-section {
         width: 90%;
-        margin: auto;
+        margin: 10px auto;
         flex-direction: column;
         align-items: center;
         margin-bottom: 20px;
@@ -65,13 +65,14 @@
         height: 52px;
     }
     .popular-tour-img {
-        height: 370px;
+        height: 300px;
+        padding: 0;
     }
     /* -------------------- */
    
     .popular-tour-img video {
         height: 250px; 
-        
+        margin: 30px auto;
     }
    
     /* --------------------- */
@@ -161,6 +162,7 @@
 
     .newsletter-section {
         flex-direction: column;
+        margin: 20px auto;
     }
 
     .input-area, .img-area {
@@ -196,6 +198,10 @@
     .review-item {
         width: 90%;
         margin: auto;
+        
+    }
+    .review-title {
+        margin: 30px auto;
     }
 
     .footer-content {
