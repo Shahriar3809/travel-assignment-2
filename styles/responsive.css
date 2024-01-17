@@ -64,11 +64,13 @@
         width: 174px;
         height: 52px;
     }
-
+    .popular-tour-img {
+        height: 370px;
+    }
     /* -------------------- */
    
     .popular-tour-img video {
-        height: 220px; 
+        height: 250px; 
         
     }
    
